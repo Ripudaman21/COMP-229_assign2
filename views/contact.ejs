@@ -1,0 +1,85 @@
+
+<! Ripudaman
+   301221570
+   2/5/2022 ––>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <! CSS from stylecontact.css>
+    <link rel='stylesheet' href='/stylesheets/stylecontact.css' />
+  </head>
+  <body>
+    
+    <header> 
+      <! adding logo>
+        <img class="logo" src="/images/logo.png" alt="logo" style="width: 100px;height: 100px;">
+
+<nav><! navigation links>
+  <ul class="nav_links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/projects">Projects</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/about">About Me</a></li>
+    <li><a href="/contact">Contact Me</a></li>
+    <li><a href="/userdb/list">List</a></li>
+    <li><a href="/users/signin">Sign-In</a></li>
+    <li><a href="/users/signout">Sign-Out</a></li>
+      <a class="cta" href="#"><button></button></a>
+    </ul>
+  </nav>
+  
+  
+    </header>
+    
+    <div  class ="aa">
+    <div class="b1">
+
+
+    
+    <div class="column third center">
+        <h6 >Address</h6>
+        <p></p>
+        <p class="t">37, McClure Crescent</p></div>
+        
+    </div>
+    
+    <div class="b2">
+        <div class="column third center">
+        <h6>Phone No.</h6>
+        <p class="t">(647)215-2107</p></div>
+        
+    </div>
+    
+    <div class="b3">
+        <div class="column third center">
+        <h6 >E-mail</h6>
+        <p class="t">21ripudaman1997@gmail.com</p></div>
+    </div>
+  </div>
+    <br>
+    <form>
+      E-mail :
+      <br>
+      <input type="text" name="mail">
+      </form>   
+
+      <form >
+        Your message :
+        <br>
+        <textarea  id="textboxid" type="text" name="tbox" cols="40" rows="5"></textarea>
+        </form>   
+        <input type="submit">
+        
+<footer class="ids">
+      
+    <ul class="social">
+        
+       
+    </ul>
+  
+</footer>
+  </body>
+</html>
+<! adding footer>
+<% include footer.ejs %>
